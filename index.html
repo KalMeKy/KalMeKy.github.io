@@ -4,14 +4,140 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My School Project</title>
+
+    <title>Voices of Brazil | An Indigenous Art Gallery</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <h1>My Website</h1>
-    <p>Welcome to my school project!</p>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="#" class="logo">VOICES <span>OF BRAZIL.</span></a>
+
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#gallery">The Collection</a>
+            <a href="#credits">Sources</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <p class="eyebrow">AN INDIGENOUS CULTURAL EXHIBITION</p>
+
+            <h1>Stories that<br>
+                <span>live forever.</span>
+            </h1>
+
+            <p class="hero-description">
+                Explore the mythology, art, traditions, and stories
+                of Brazil's Indigenous peoples.
+            </p>
+
+            <a href="#gallery" class="explore-button">
+                Explore the collection <span>↓</span>
+            </a>
+        </div>
+
+        <div class="hero-bottom">
+            <span>A JOURNEY THROUGH BRAZIL</span>
+            <span>10 EXHIBITS · ONE COLLECTION</span>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <p class="eyebrow">BEYOND THE ORDINARY</p>
+
+        <h2>Every story has<br>
+            <span>a place in history.</span>
+        </h2>
+
+        <p class="about-text">
+            [Write an introduction to your exhibition here.
+            Explain what visitors will discover and why preserving
+            Indigenous stories and cultures matters.]
+        </p>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+
+        <div class="gallery-heading">
+            <div>
+                <p class="eyebrow">THE COLLECTION</p>
+                <h2>Explore the exhibits.</h2>
+            </div>
+
+            <p class="gallery-subtitle">
+                Ten stories. Ten perspectives.
+            </p>
+        </div>
+
+        <!-- Exhibit Slider -->
+        <div class="slider-container">
+
+            <div class="slider-top">
+                <span id="exhibit-number">01 / 10</span>
+
+                <div class="slider-controls">
+                    <button id="prev" aria-label="Previous exhibit">←</button>
+                    <button id="next" aria-label="Next exhibit">→</button>
+                </div>
+            </div>
+
+            <div id="exhibit-content" class="exhibit-content">
+                <!-- Exhibits are loaded by JavaScript -->
+            </div>
+
+            <div class="slider-bottom">
+                <div class="progress-track">
+                    <div id="progress" class="progress-fill"></div>
+                </div>
+
+                <div id="dots" class="dots"></div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Closing Section -->
+    <section class="closing">
+        <p class="eyebrow">THE END OF THE COLLECTION</p>
+
+        <h2>Stories worth<br>
+            <span>remembering.</span>
+        </h2>
+
+        <p>
+            [Write a short conclusion about what you learned
+            from exploring Brazil's Indigenous cultures.]
+        </p>
+
+        <a href="#gallery" class="explore-button">
+            Revisit the collection ↑
+        </a>
+    </section>
+
+    <!-- Sources -->
+    <footer id="credits">
+        <div>
+            <a href="#" class="logo">VOICES <span>OF BRAZIL.</span></a>
+            <p>An exploration of Indigenous art and mythology.</p>
+        </div>
+
+        <div class="footer-right">
+            <p>RESEARCH & IMAGE CREDITS</p>
+            <p>[Add your sources and image credits here.]</p>
+            <p class="copyright">© 2026 · SCHOOL EXHIBITION PROJECT</p>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
+
 </body>
 </html>
