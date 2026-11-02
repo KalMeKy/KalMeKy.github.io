@@ -375,3 +375,4 @@ revealElements.forEach(element => {
 
 createDots();
 showExhibit(0);
+    
