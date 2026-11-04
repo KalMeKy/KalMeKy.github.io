@@ -4,331 +4,213 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <meta name="description" content="An exhibition exploring the art, mythology, and stories of Brazil's Indigenous peoples.">
-
-    <title>Voices of Brazil — Indigenous Art & Mythology</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
-
+    <title>Art & Mythology of Indigenous Brazil</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- NAVIGATION -->
-
-    <nav class="navbar">
-        <a href="#" class="brand">
-            <span class="brand-symbol">V.</span>
-            <span>VOICES OF BRAZIL</span>
-        </a>
-
-        <div class="nav-links">
-            <a href="#introduction">Introduction</a>
-            <a href="#collection">Collection</a>
+    <!-- Navigation -->
+    <header>
+        <h1>Art & Mythology</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#gallery">Gallery</a>
             <a href="#locations">Locations</a>
-        </div>
-
-        <a href="#collection" class="nav-button">Explore ↗</a>
-
-        <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation">☰</button>
-    </nav>
-
-
-    <!-- HERO -->
-
-    <header class="hero">
-
-        <div class="hero-overlay"></div>
-
-        <div class="hero-content">
-            <div class="hero-label">
-                <span class="gold-line"></span>
-                A DIGITAL CULTURAL EXHIBITION
-            </div>
-
-            <h1>
-                Beyond the<br>
-                <em>visible world.</em>
-            </h1>
-
-            <p>
-                Discover the stories, art, mythology, and traditions
-                of Brazil's Indigenous peoples.
-            </p>
-
-            <a href="#introduction" class="hero-button">
-                Discover the exhibition
-                <span>↓</span>
-            </a>
-        </div>
-
-        <div class="hero-footer">
-            <span>BRAZIL · INDIGENOUS CULTURES</span>
-            <span>01 — 10 EXHIBITS</span>
-        </div>
-
-        <div class="hero-side-text">CULTURE · HISTORY · MYTHOLOGY</div>
-
+            <a href="#about">About</a>
+        </nav>
     </header>
 
-
-    <!-- INTRODUCTION -->
-
-    <section class="introduction section-padding" id="introduction">
-
-        <div class="section-number">01 / THE EXHIBITION</div>
-
-        <div class="intro-grid">
-
-            <div>
-                <p class="eyebrow">A JOURNEY THROUGH CULTURE</p>
-
-                <h2>
-                    Every culture<br>
-                    holds a <em>universe.</em>
-                </h2>
-            </div>
-
-            <div class="intro-copy">
-                <p>
-                    [Write your introduction to the exhibition here.
-                    Explain the importance of Brazil's Indigenous
-                    cultures, stories, art, and traditions.]
-                </p>
-
-                <p>
-                    [Explain what visitors will discover throughout
-                    the collection and what you hope they learn.]
-                </p>
-
-                <a href="#collection" class="text-link">
-                    Enter the collection <span>↗</span>
-                </a>
-            </div>
-
-        </div>
-
-        <div class="intro-bottom">
-            <span>10 EXHIBITION ITEMS</span>
-            <span>ONE SHARED JOURNEY</span>
-        </div>
-
+    <!-- Main Introduction -->
+    <section id="home" class="hero">
+        <h2>Art & Mythology of Indigenous Brazil</h2>
+        <p>
+            Explore the artwork, stories, traditions, and mythology
+            of Brazil's Indigenous peoples.
+        </p>
+        <a href="#gallery" class="button">Explore the Gallery</a>
     </section>
 
+    <!-- Introduction -->
+    <section class="introduction">
+        <h2>Welcome to the Gallery</h2>
+        <p>
+            This gallery explores the cultural traditions and artistic
+            expressions of Indigenous peoples in Brazil. Through art,
+            mythology, and storytelling, visitors can learn about the
+            history and significance of these cultures.
+        </p>
+    </section>
 
-    <!-- COLLECTION -->
-
-    <section class="collection section-padding" id="collection">
-
-        <div class="section-number">02 / THE COLLECTION</div>
-
-        <div class="collection-heading">
-            <div>
-                <p class="eyebrow">ARTIFACTS · STORIES · TRADITIONS</p>
-                <h2>Explore the <em>collection.</em></h2>
-            </div>
-
-            <p>
-                Each exhibit offers a window into a different
-                part of Brazil's Indigenous cultural heritage.
-            </p>
-        </div>
-
-
-        <!-- FEATURED EXHIBIT -->
+    <!-- Gallery -->
+    <section id="gallery" class="gallery-section">
+        <h2>Gallery Exhibits</h2>
+        <p class="section-description">
+            Explore the different works of art, objects, and stories
+            featured in this collection.
+        </p>
 
         <div class="gallery">
 
-            <div class="gallery-toolbar">
-                <span id="exhibit-counter">EXHIBIT 01 — 10</span>
-
-                <div class="gallery-arrows">
-                    <button id="previous" aria-label="Previous exhibit">←</button>
-                    <button id="next" aria-label="Next exhibit">→</button>
+            <!-- Exhibit 1 -->
+            <article class="exhibit">
+                <img src="images/exhibit-01.jpg" alt="Exhibit 1 image">
+                <div class="exhibit-content">
+                    <h3>Exhibit 1: [Title]</h3>
+                    <p><strong>Indigenous Group:</strong> [Group name]</p>
+                    <p><strong>Location:</strong> [Location in Brazil]</p>
+                    <p><strong>Description:</strong> [Describe the artwork, object, or story.]</p>
+                    <p><strong>Significance:</strong> [Explain its cultural importance.]</p>
                 </div>
-            </div>
-
-
-            <article class="exhibit" id="exhibit">
-
-                <div class="exhibit-visual" id="exhibit-visual">
-
-                    <div class="visual-placeholder">
-                        <span>✳</span>
-                        <p>EXHIBITION IMAGE</p>
-                        <small>Add your image in the script.js file</small>
-                    </div>
-
-                    <div class="visual-caption">
-                        <span>VOICES OF BRAZIL</span>
-                        <span id="visual-number">01 / 10</span>
-                    </div>
-
-                </div>
-
-
-                <div class="exhibit-information">
-
-                    <p class="eyebrow" id="exhibit-category">
-                        CULTURAL COLLECTION
-                    </p>
-
-                    <h3 id="exhibit-title">Exhibit One</h3>
-
-                    <div class="gold-line"></div>
-
-                    <div class="information-block">
-                        <span>PEOPLE GROUP</span>
-                        <p id="exhibit-people">[Indigenous people group]</p>
-                    </div>
-
-                    <div class="information-block">
-                        <span>PLACE OF ORIGIN</span>
-                        <p id="exhibit-location">[Location in Brazil]</p>
-                    </div>
-
-                    <div class="information-block">
-                        <span>THE STORY</span>
-                        <p id="exhibit-description">
-                            [Write a detailed description of the exhibit.]
-                        </p>
-                    </div>
-
-                    <div class="significance-block">
-                        <span>✳ &nbsp; WHY IT MATTERS</span>
-                        <p id="exhibit-significance">
-                            [Explain why this item is significant.]
-                        </p>
-                    </div>
-
-                    <a id="exhibit-source" class="text-link source-link"
-                       href="#" target="_blank" rel="noopener" hidden>
-                        View research source ↗
-                    </a>
-
-                </div>
-
             </article>
 
-
-            <!-- GALLERY NAVIGATION -->
-
-            <div class="gallery-navigation">
-
-                <div class="gallery-progress">
-                    <div id="gallery-progress"></div>
+            <!-- Exhibit 2 -->
+            <article class="exhibit">
+                <img src="images/exhibit-02.jpg" alt="Exhibit 2 image">
+                <div class="exhibit-content">
+                    <h3>Exhibit 2: [Title]</h3>
+                    <p><strong>Indigenous Group:</strong> [Group name]</p>
+                    <p><strong>Location:</strong> [Location in Brazil]</p>
+                    <p><strong>Description:</strong> [Describe the artwork, object, or story.]</p>
+                    <p><strong>Significance:</strong> [Explain its cultural importance.]</p>
                 </div>
+            </article>
 
-                <div class="gallery-bottom">
-                    <span>SELECT AN EXHIBIT</span>
-                    <div id="gallery-dots"></div>
-                    <span>USE THE ARROWS TO EXPLORE</span>
+            <!-- Exhibit 3 -->
+            <article class="exhibit">
+                <img src="images/exhibit-03.jpg" alt="Exhibit 3 image">
+                <div class="exhibit-content">
+                    <h3>Exhibit 3: [Title]</h3>
+                    <p><strong>Indigenous Group:</strong> [Group name]</p>
+                    <p><strong>Location:</strong> [Location in Brazil]</p>
+                    <p><strong>Description:</strong> [Describe the artwork, object, or story.]</p>
+                    <p><strong>Significance:</strong> [Explain its cultural importance.]</p>
                 </div>
+            </article>
 
-            </div>
+            <!-- Exhibit 4 -->
+            <article class="exhibit">
+                <img src="images/exhibit-04.jpg" alt="Exhibit 4 image">
+                <div class="exhibit-content">
+                    <h3>Exhibit 4: [Title]</h3>
+                    <p><strong>Indigenous Group:</strong> [Group name]</p>
+                    <p><strong>Location:</strong> [Location in Brazil]</p>
+                    <p><strong>Description:</strong> [Describe the artwork, object, or story.]</p>
+                    <p><strong>Significance:</strong> [Explain its cultural importance.]</p>
+                </div>
+            </article>
+
+            <!-- Exhibit 5 -->
+            <article class="exhibit">
+                <img src="images/exhibit-05.jpg" alt="Exhibit 5 image">
+                <div class="exhibit-content">
+                    <h3>Exhibit 5: [Title]</h3>
+                    <p><strong>Indigenous Group:</strong> [Group name]</p>
+                    <p><strong>Location:</strong> [Location in Brazil]</p>
+                    <p><strong>Description:</strong> [Describe the artwork, object, or story.]</p>
+                    <p><strong>Significance:</strong> [Explain its cultural importance.]</p>
+                </div>
+            </article>
+
+            <!-- Exhibit 6 -->
+            <article class="exhibit">
+                <img src="images/exhibit-06.jpg" alt="Exhibit 6 image">
+                <div class="exhibit-content">
+                    <h3>Exhibit 6: [Title]</h3>
+                    <p><strong>Indigenous Group:</strong> [Group name]</p>
+                    <p><strong>Location:</strong> [Location in Brazil]</p>
+                    <p><strong>Description:</strong> [Describe the artwork, object, or story.]</p>
+                    <p><strong>Significance:</strong> [Explain its cultural importance.]</p>
+                </div>
+            </article>
+
+            <!-- Exhibit 7 -->
+            <article class="exhibit">
+                <img src="images/exhibit-07.jpg" alt="Exhibit 7 image">
+                <div class="exhibit-content">
+                    <h3>Exhibit 7: [Title]</h3>
+                    <p><strong>Indigenous Group:</strong> [Group name]</p>
+                    <p><strong>Location:</strong> [Location in Brazil]</p>
+                    <p><strong>Description:</strong> [Describe the artwork, object, or story.]</p>
+                    <p><strong>Significance:</strong> [Explain its cultural importance.]</p>
+                </div>
+            </article>
+
+            <!-- Exhibit 8 -->
+            <article class="exhibit">
+                <img src="images/exhibit-08.jpg" alt="Exhibit 8 image">
+                <div class="exhibit-content">
+                    <h3>Exhibit 8: [Title]</h3>
+                    <p><strong>Indigenous Group:</strong> [Group name]</p>
+                    <p><strong>Location:</strong> [Location in Brazil]</p>
+                    <p><strong>Description:</strong> [Describe the artwork, object, or story.]</p>
+                    <p><strong>Significance:</strong> [Explain its cultural importance.]</p>
+                </div>
+            </article>
+
+            <!-- Exhibit 9 -->
+            <article class="exhibit">
+                <img src="images/exhibit-09.jpg" alt="Exhibit 9 image">
+                <div class="exhibit-content">
+                    <h3>Exhibit 9: [Title]</h3>
+                    <p><strong>Indigenous Group:</strong> [Group name]</p>
+                    <p><strong>Location:</strong> [Location in Brazil]</p>
+                    <p><strong>Description:</strong> [Describe the artwork, object, or story.]</p>
+                    <p><strong>Significance:</strong> [Explain its cultural importance.]</p>
+                </div>
+            </article>
+
+            <!-- Exhibit 10 -->
+            <article class="exhibit">
+                <img src="images/exhibit-10.jpg" alt="Exhibit 10 image">
+                <div class="exhibit-content">
+                    <h3>Exhibit 10: [Title]</h3>
+                    <p><strong>Indigenous Group:</strong> [Group name]</p>
+                    <p><strong>Location:</strong> [Location in Brazil]</p>
+                    <p><strong>Description:</strong> [Describe the artwork, object, or story.]</p>
+                    <p><strong>Significance:</strong> [Explain its cultural importance.]</p>
+                </div>
+            </article>
 
         </div>
-
     </section>
 
+    <!-- Locations -->
+    <section id="locations" class="locations">
+        <h2>Locations Across Brazil</h2>
+        <p>
+            Indigenous communities are located throughout Brazil.
+            This section shows where the groups featured in this
+            gallery originate and the regions they call home.
+        </p>
 
-    <!-- LOCATIONS -->
-
-    <section class="locations section-padding" id="locations">
-
-        <div class="section-number">03 / GEOGRAPHY</div>
-
-        <div class="locations-heading">
-            <p class="eyebrow">A COUNTRY OF MANY CULTURES</p>
-
-            <h2>Rooted in the<br><em>land of Brazil.</em></h2>
-
-            <p>
-                [Introduce the geographical diversity of Brazil
-                and explain how location connects to Indigenous
-                cultures and traditions.]
-            </p>
-        </div>
-
-        <div class="map-container">
-
-            <div class="map-placeholder">
-                <span>✳</span>
-                <h3>Explore the origins.</h3>
-                <p>
-                    Add a map of Brazil here, showing the locations
-                    associated with your ten exhibits.
-                </p>
-                <small>MAP PLACEHOLDER</small>
-            </div>
-
+        <div class="map-placeholder">
+            <p>[Insert a map of Brazil here]</p>
         </div>
 
         <p class="map-caption">
-            GEOGRAPHICAL LOCATIONS OF THE EXHIBITION ITEMS
+            Map showing the locations of the Indigenous groups
+            represented in this gallery.
         </p>
-
     </section>
 
-
-    <!-- CLOSING -->
-
-    <section class="closing">
-
-        <p class="eyebrow">THE END OF THE EXHIBITION</p>
-
-        <h2>
-            Some stories<br>
-            never <em>disappear.</em>
-        </h2>
-
+    <!-- About -->
+    <section id="about" class="about">
+        <h2>About This Gallery</h2>
         <p>
-            [Write your concluding thoughts here. Reflect on
-            what you learned and why these stories deserve
-            to be remembered.]
+            The purpose of this gallery is to recognize and explore
+            the art, mythology, and cultural heritage of Brazil's
+            Indigenous peoples. Each exhibit provides an opportunity
+            to learn about the traditions and stories that have
+            been passed down through generations.
         </p>
-
-        <a href="#collection" class="hero-button">
-            Revisit the collection ↑
-        </a>
-
     </section>
 
-
-    <!-- FOOTER -->
-
-    <footer class="footer" id="credits">
-
-        <div class="footer-main">
-            <a href="#" class="brand footer-brand">
-                <span class="brand-symbol">V.</span>
-                <span>VOICES OF BRAZIL</span>
-            </a>
-
-            <p>
-                An exploration of Indigenous art,
-                mythology, and cultural heritage.
-            </p>
-        </div>
-
-        <div class="footer-sources">
-            <span>RESEARCH & IMAGE CREDITS</span>
-            <p>[Add your research sources and image credits here.]</p>
-        </div>
-
-        <div class="footer-bottom">
-            <span>© 2026 · EDUCATIONAL EXHIBITION</span>
-            <a href="#">BACK TO TOP ↑</a>
-        </div>
-
+    <!-- Footer -->
+    <footer>
+        <p>Art & Mythology of Indigenous Brazil</p>
+        <p>Educational Virtual Gallery</p>
     </footer>
-
-
-    <script src="script.js"></script>
 
 </body>
 </html>
